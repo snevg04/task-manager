@@ -7,8 +7,25 @@
 ### GitHub workflows CI:
 [![GitHub workflows CI](https://github.com/snevg04/java-project-99/actions/workflows/build.yml/badge.svg)](https://github.com/snevg04/java-project-99/actions/workflows/build.yml)
 
+# Task Manager (EN)
 
-# Менеджер задач
+A task management application that allows users to assign tasks to team members and track their statuses. It features filtering by task name, assignee, status, and labels. The application also supports customization through the creation of custom statuses and labels. Built with Spring Boot 4.
+
+## Running the Application
+
+The application can be run locally using the ./gradlew bootRun command. When running locally, the application uses an H2 database.
+
+## Accessing the Application
+
+A demo version of the application is available at: https://task-manager-dzkk.onrender.com
+When running the application locally, use localhost:8080.
+
+## Login Credentials
+
+Username: admin@examlpe.com
+Password: qwerty
+
+# Менеджер задач (RU)
 Приложение представляет собой трекер задач, который поддерживает назначение исполнителей и статусов для любой задачи. Для удобной работы реализована фильтрация задач по названию, исполнителю, статусам и ярлыкам. Помимо этого поддерживается возможность кастомизации в виде создания своих статусов и ярлыков. Менеджер задач реализован на Spring Boot 4
 
 ## Запуск приложения
@@ -19,5 +36,5 @@
 При локальном запуске следует использовать localhost:8080
 
 ## Данные для входа
-Имя пользователя: hexlet@examlpe.com
+Имя пользователя: admin@examlpe.com
 Пароль: qwerty
