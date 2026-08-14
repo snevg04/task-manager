@@ -22,7 +22,7 @@ When running the application locally, use localhost:8080.
 
 ## Login Credentials
 
-Username: admin@examlpe.com
+Username: admin@example.com
 Password: qwerty
 
 # Менеджер задач (RU)
@@ -36,5 +36,5 @@ Password: qwerty
 При локальном запуске следует использовать localhost:8080
 
 ## Данные для входа
-Имя пользователя: admin@examlpe.com
+Имя пользователя: admin@example.com
 Пароль: qwerty
