@@ -29,9 +29,9 @@ public class DefaultDataInitializer {
 
     @PostConstruct
     public void init() {
-        if (userRepository.findByEmail("hexlet@example.com").isEmpty()) {
+        if (userRepository.findByEmail("admin@example.com").isEmpty()) {
             User admin = new User();
-            admin.setEmail("hexlet@example.com");
+            admin.setEmail("admin@example.com");
             admin.setPasswordDigest(passwordEncoder.encode("qwerty"));
             userRepository.save(admin);
         }
